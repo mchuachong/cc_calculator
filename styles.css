@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'digital';
-    src: url('github.com/mchuachong/cc_calculator/blob/main/DS-DIGIB.TTF');
+    src: url('./DS-DIGIB.TTF');
   }
 
 :root{
