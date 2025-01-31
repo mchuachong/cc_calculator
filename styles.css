@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'digital';
+    src: url('./DS-DIGIB.ttf');
+  }
+
+:root{
+    box-sizing: border-box;
+    --border:rgb(76, 191, 209);
+    --contrast:yellow;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family:open sans,sans serif;
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    background-color: rgb(77, 78, 80);
+    height:100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width:21rem;
+    height:35rem;
+    border:.5rem solid var(--border);
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: black 0px 5px 25px;
+}
+
+#preview{
+    height:calc(100% / 8);
+    border-bottom: 1px solid var(--border);
+    width: 90%;
+    align-self: center;
+    color:var(--contrast);
+    display:flex;
+    align-items: end;
+    justify-content: end;
+    font-family: 'digital';
+    font-size:3rem;
+
+}
+
+#display{
+    height:calc(100% / 8);
+    border-bottom: 1px solid var(--border);
+    width: 90%;
+    align-self: center;
+    color:var(--contrast);
+    display:flex;
+    align-items: end;
+    justify-content: end;
+    font-family: 'digital';
+    font-size:3rem;
+}
+
+#r1{
+    height:calc(100% / 8);
+    display: flex;
+    justify-content: space-around;
+}
+
+#r2{
+    height:calc(100% / 8);
+    display: flex;
+    justify-content: space-around;
+}
+#r3{
+    height:calc(100% / 8);
+    display: flex;
+    justify-content: space-around;
+}
+#r4{
+    height:calc(100% / 8);
+    display: flex;
+    justify-content: space-around;
+    
+}
+#r5{
+    height:calc(100% / 8);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.button{
+font-size: 2.2rem;
+color: aliceblue;
+display:flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(99, 99, 99);
+width:4rem;
+height:4rem;
+border-radius: .5rem;
+
+}
+
+#zero{
+    width:9.3rem;
+}
+
+#back{
+    width:9.3rem;
+}
+
+
+.func{
+    color:var(--border);
+}
+
+#equal{
+    background-color: var(--border);
+    color:black;
+}
+
+#clear{
+    color:var(--contrast)
+}
